@@ -6,7 +6,7 @@ public class Conta {
 
 	private TipoConta tipo;
 	private String numero;
-	public String titular;
+	public Cliente titular;
 	private String numeroAgencia;
 	private double saldo;
 	
