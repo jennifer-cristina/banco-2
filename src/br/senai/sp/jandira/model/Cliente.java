@@ -8,11 +8,10 @@ public class Cliente {
 	
 	public void setNome(String nome) {
 		this.nome = nome;
-		
 	}
 	
 	public String getNome() {
-		return nome;
+		return this.nome;
 	}
 	
 	public void setEmail(String email) {
@@ -21,8 +20,15 @@ public class Cliente {
 	}
 	
 	public String getEmail() {
-		return email;
+		return this.email;
 	}
 	
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
+	public double getSalario() {
+		return this.salario;
+	}
 	
 }
